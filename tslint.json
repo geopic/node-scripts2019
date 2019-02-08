@@ -1,0 +1,47 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+      "tslint:recommended"
+  ],
+  "jsRules": {},
+  "rules": {
+      "arrow-parens": false,
+      "ban-comma-operator": true,
+      "curly": true,
+      "interface-over-type-literal": false,
+      "jsdoc-format": true,
+      "max-line-length": false,
+      "member-access": true,
+      "no-any": true,
+      "no-conditional-assignment": true,
+      "no-console": false,
+      "no-construct": true,
+      "no-debugger": false,
+      "no-duplicate-super": true,
+      "no-empty": true,
+      "no-empty-interface": true,
+      "no-eval": true,
+      "no-for-in-array": true,
+      "no-implicit-dependencies": [true, "dev"],
+      "no-inferred-empty-object-type": true,
+      "no-invalid-template-strings": true,
+      "no-invalid-this": true,
+      "no-string-literal": true,
+      "no-unused-variable": true,
+      "no-var-keyword": true,
+      "no-var-requires": true,
+      "object-literal-shorthand": false,
+      "object-literal-sort-keys": false,
+      "only-arrow-functions": false,
+      "ordered-imports": false,
+      "prefer-for-of": true,
+      "quotemark": [true, "single", "avoid-escape"],
+      "trailing-comma": false,
+      "typedef": true,
+      "use-isnan": true
+  },
+  "rulesDirectory": [],
+  "linterOptions": {
+      "exclude": ["bin/*"]
+  }
+}

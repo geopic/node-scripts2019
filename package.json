@@ -1,0 +1,24 @@
+{
+  "name": "node-script-launcher",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npx webpack --watch",
+    "exec": "node ./bin/index.js",
+    "test": "jest --coverage --watchAll"
+  },
+  "author": "George Pickering",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "24.0.0",
+    "@types/node": "10.12.21",
+    "ts-jest": "23.10.5",
+    "tslint": "5.12.1"
+  },
+  "dependencies": {
+    "awesome-typescript-loader": "5.2.1",
+    "typescript": "3.3.1",
+    "webpack": "4.29.3",
+    "webpack-cli": "3.2.3",
+    "webpack-node-externals": "1.7.2"
+  }
+}
