@@ -2,9 +2,11 @@
   "name": "node-script-launcher",
   "version": "1.0.0",
   "scripts": {
-    "build": "npx webpack --watch",
+    "build": "npx webpack",
     "exec": "node ./bin/index.js",
-    "test": "jest --coverage --watchAll"
+    "test": "jest --coverage",
+    "watch:build": "npx webpack --watch",
+    "watch:test": "jest --coverage --watchAll"
   },
   "author": "George Pickering",
   "license": "MIT",
