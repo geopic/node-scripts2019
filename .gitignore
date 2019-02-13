@@ -1,6 +1,5 @@
+dist
 node_modules
-bin
-coverage
 
-# 'Journal' / log of individual changes made, for self-reference only (more concise than git log)
+# Log of individual changes made
 .gitremind

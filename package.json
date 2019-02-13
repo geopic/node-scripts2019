@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "scripts": {
     "build": "npx webpack",
-    "exec": "node ./bin/index.js",
-    "test": "jest --coverage",
-    "watch:build": "npx webpack --watch",
-    "watch:test": "jest --coverage --watchAll"
+    "exec": "node ./dist/index.js",
+    "watch:test": "jest --watchAll",
+    "watch:build": "npx webpack --watch"
   },
   "author": "George Pickering",
   "license": "MIT",

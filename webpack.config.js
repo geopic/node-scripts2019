@@ -7,11 +7,11 @@ module.exports = {
   node: {
     fs: 'empty'
   },
-  mode: 'production',
+  mode: 'development',
   entry: ['./src/entrypoint.ts'],
   output: {
     filename: 'index.js',
-    path: path.join(__dirname, 'bin')
+    path: path.join(__dirname, 'dist')
   },
   resolve: {
     extensions: ['.js', '.ts', '.json']
