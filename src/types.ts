@@ -3,5 +3,5 @@
 // * --------------------------------------------------
 export type Option = {
   displayText: string;
-  script: () => void;
+  script: () => Promise<void>;
 };

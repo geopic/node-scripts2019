@@ -3,4 +3,4 @@
 // * -----------------------------
 import ListOptions from './components/ListOptions.class';
 
-ListOptions.entries[1].script();
+ListOptions.entries[0].script();
